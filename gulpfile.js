@@ -102,6 +102,10 @@ const serverHandler = () => {
         {
           source: "/login",
           target: "http://localhost:80/login.php"
+        },
+        {
+          source: "/gt",
+          target: "https://aldh5.tmall.com/recommend2.htm"
         }
       ]
     })
